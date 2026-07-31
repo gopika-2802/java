@@ -1,0 +1,14 @@
+package Strings;
+public class print_non_repeatin_char {
+    public static void main(String[] args) {
+        String s="swiss";
+        for(char c:s.toCharArray())
+        {
+            if(s.indexOf(c)==s.lastIndexOf(c))
+            {
+                System.out.println(c);
+            }
+        }
+    }
+    
+}
